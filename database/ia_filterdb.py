@@ -1,7 +1,3 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 import logging
 from struct import pack
 import re
@@ -29,7 +25,7 @@ sec_col = sec_db[COLLECTION_NAME]
 async def save_file(media):
     """Save file in database"""
 
-    file_id, file_ref = unpack_new_file_id(media.file_id)
+    file_id = unpack_new_file_id(media.file_id)
     file_name = re.sub(r"(_|\-|\.|\+)", " ", str(media.file_name)) 
     unwanted_chars = ['[', ']', '(', ')']
     for char in unwanted_chars:
@@ -39,7 +35,7 @@ async def save_file(media):
         'file_id': file_id,
         'file_name': file_name,
         'file_size': media.file_size,
-        'caption': media.caption.html if media.caption else None
+        #'caption': media.caption.html if media.caption else None
     }
     found1 = {'file_name': file_name}
     found = {'file_id': file_id}
@@ -217,8 +213,8 @@ def encode_file_id(s: bytes) -> str:
     return base64.urlsafe_b64encode(r).decode().rstrip("=")
 
 
-def encode_file_ref(file_ref: bytes) -> str:
-    return base64.urlsafe_b64encode(file_ref).decode().rstrip("=")
+#def encode_file_ref(file_ref: bytes) -> str:
+    #return base64.urlsafe_b64encode(file_ref).decode().rstrip("=")
 
 
 def unpack_new_file_id(new_file_id):
@@ -233,5 +229,5 @@ def unpack_new_file_id(new_file_id):
             decoded.access_hash
         )
     )
-    file_ref = encode_file_ref(decoded.file_reference)
-    return file_id, file_ref
+    #file_ref = encode_file_ref(decoded.file_reference)
+    return file_id
