@@ -1,30 +1,28 @@
 class script(object):
     START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
-ɪ ᴀᴍ【 ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ 】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ+└ᴀᴡᴇꜱᴏᴍᴇ ꜰɪʟᴛᴇʀ┘+├ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ┤+☞ᴍᴀɴᴜᴀʟ ꜰɪᴛᴇʀ☜ ᴀɴᴅ ᢵᴄᴜꜱᴛᴏᴍɪᴢᴇᴅ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛᢴ ᢾᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇᢿ</b>"""
+ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ, ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ, ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ ᴀɴᴅ ᴄᴜꜱᴛᴏᴍɪᴢᴇᴅ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
 ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴊᴜsᴛ ᴛʏᴘᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💘</b>"""
     
-    HELP_TXT = """<b>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+    HELP_TXT = """<b>ʜᴇʏ {}
+ʜᴇʀᴇ ɪs ᴛʜᴇ ᴅᴇᴛᴀɪʟᴇᴅ ᴅᴇᴛᴀɪʟs ғᴏʀ ᴏᴜʀ ʙᴏᴛ</b>"""
 
-    ABOUT_TXT = """<b><blockquote>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
+    ABOUT_TXT = """<b><blockquote>⍟───[ <a href='https://t.me/hd_movies_hub01/7'>ᴀʙᴏᴜᴛ ʙᴏᴛ</a> ]───⍟</blockquote>
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://https;//telegram.me/talk_mrs_bot'>ᴛᴇᴄʜ ᴠᴊ</a> 
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/infinity_botzz'>ɪɴғɪɴɪᴛʏ ʙᴏᴛᴢ</a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://koyeb.com'>ᴋᴏʏᴇʙ</a> 
+‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ-2.7.5 [sᴛᴀʙʟᴇ]></b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
 ‣ ᴍʏ ɴᴀᴍᴇ : {}
-‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
 ‣ ᴄʟᴏɴᴇᴅ ғʀᴏᴍ : <a href=https://t.me/{}>{}</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
@@ -42,7 +40,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     SUBSCRIPTION_TXT = """
 <b>ʀᴇғᴇʀʀᴇ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
 
-ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=INFINITY-{}
+ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=Infinity-{}
 
 ɪғ {} ᴜɴɪǫᴜᴇ ᴜsᴇʀ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ʀᴇғᴇʀᴀʟ ʟɪɴᴋ ᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴅᴅᴇᴅ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.
 
@@ -62,7 +60,6 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /del - <code>ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴛᴇʀ ɪɴ ᴀ ᴄʜᴀᴛ</code>
 • /delall - <code>ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ᴄʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</code>"""
 
-
     BUTTON_TXT = """ʜᴇʟᴘ: <b>ʙᴜᴛᴛᴏɴꜱ</b>
 - ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴꜱ.
 <b>ɴᴏᴛᴇ:</b>
@@ -70,7 +67,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/vjupdates2/3)</code>
+<code>[Button Text](buttonurl:https://t.me/infinity_botzz/3)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -97,29 +94,29 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /connections - <code>ʟɪꜱᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ</code>"""
 
 
+    GROUP_TXT = """
+<b>⍟ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢʀᴏᴜᴘs ᴍᴏᴅᴜʟᴇ ⍟</b>
+
+<b>🍿  ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ.
+🗣️  ʙᴏᴛ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ.
+🚦  ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ.
+🎬  ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛɪɴɢ ɢʀᴏᴜᴘ.</b>"""
 
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
-my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://https;//telegram.me/talk_mrs_bot>☢VJ☢</a></b>
+ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ᴏғ ᴛʜɪs ʙᴏᴛ ᴀʀᴇ ʟɪsᴛᴇᴅ ʙᴇʟᴏᴡ. ғᴏʀ ᴍᴏʀᴇ ᴜᴘᴅᴀᴛᴇs ᴏʀ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ʀᴇǫᴜᴇsᴛ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ.
+ <b>✯ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/infinity_botzz'>°ɪɴғɪɴɪᴛʏ ʙᴏᴛᴢ°</a></b>
   
- <b>✯ Join here : <a href=https://t.me/vj_bots>☢Join my updateds☢</a></b> 
+ <b>✯ ғᴇᴀᴛᴜʀᴇ ʀᴇǫᴜᴇsᴛ : <a href=https://t.me/talk_mrs_bot>ᴍʀ ɪɴғɪɴɪᴛʏ</a></b> 
   
- ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
- code> 
-  
- ./info  - <code>ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.</code> 
-  
- ./song - Download any song [<code>example /song vaa vaathi song</code>] 
-  
- ./telegraph - <code>Telegraph generator sen under 5MB video or photo I give telegraph link</code> 
-  
- ./tts - <code>This command usage text to voice converter</code> 
-  
- ./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/Aiue8PMuD-k</code>]
-
-./font - This command usage stylish and cool font generator [<code>example /font hi</code>]"""
-
+ •/id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</code> 
+ •/info  - <code>ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.</code> 
+ •/song - ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ sᴏɴɢ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ[<code>ᴇxᴀᴍᴘʟᴇ /song vaa vaathi song</code>] 
+ •/tgp - <code>ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ ᴜɴᴅᴇʀ 5ᴍʙ ᴘʜᴏᴛᴏ ᴏʀ ᴠɪᴅᴇᴏ.</code> 
+ •/tts - <code>ᴜsᴇ ᴛʜɪs ᴛᴏ ᴄʜᴀɴɢᴇ ᴛᴇxᴛ ᴛᴏ sᴘᴇᴇᴄʜ.</code> 
+ •/video - ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ [<code>example /video https://youtu.be/Aiue8PMuD-k</code>]
+ •/font - ɢᴇᴛ ᴄᴏᴏʟ & sᴛʏʟɪsᴛ ғᴏɴᴛs [<code>example /font hi</code>]"""
+    
 
     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
 <b>ɴᴏᴛᴇ:</b>
@@ -144,44 +141,65 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    SEC_STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
+    SEC_STATUS_TXT = """<b>╭━━━━━━━━━━❰sᴛᴀᴛᴜs ʙᴀʀ❱══❍⊱❁۪۪
+┣⪼𖨠 👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
+┣⪼𖨠 ♻️ ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
+┣⪼𖨠 🗃️ ᴛᴏᴛᴀʟ ꜰɪʟᴇs: <code>{}</code>
+┣⪼𖨠 🗃️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code>
+┣⪼𖨠 🆓 ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code>
+╰━━━━━❰[ɪɴғɪɴɪᴛʏ ʙᴏᴛᴢ](https://t.me/infinity_botzz)❱━━━══❍⊱❁۪۪</b>"""
+
     
-    STATUS_TXT = """<b>Total Files From All DBs: <code>{}</code>
+    STATUS_TXT = """<b><pre>ᴛᴏᴛᴀʟ ғɪʟᴇs ғʀᴏᴍ ᴀʟʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴅᴀᴛᴀʙᴀsᴇs: <bold>{}</bold></pre>
 
-USERS DB :-
-★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
+<blockquote>︻︻︻︻︻︻︻︻︻
+【 ᴜsᴇʀ ᴅᴀᴛᴀʙᴀsᴇ 】
+︼︼︼︼︼︼︼︼︼
+ ╭━━━━━━━━━━━━━━━━━➣
+ ┣⪼𖨠 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
+ ┣⪼𖨠 ᴛᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
+ ╰━━━━━━━━━━━━━━━━━➣
 
-FILE FIRST DB :-
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-
-FILE SECOND DB :-
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-
-OTHER DB :-
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
+︻︻︻︻︻︻︻︻
+【ғɪʀsᴛ ᴅʙ (ғɪʟᴇ)】
+︼︼︼︼︼︼︼︼
+╭━━━━━━━━━━━━━━━━━➣
+┣⪼𖨠 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
+┣⪼𖨠 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+┣⪼𖨠 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+╰━━━━━━━━━━━━━━━━━➣
+︻︻︻︻︻︻︻︻︻︻︻
+【 sᴇᴄᴏɴᴅ ᴅʙ (ғɪʟᴇ) 】
+︼︼︼︼︼︼︼︼︼︼︼
+╭━━━━━━━━━━━━━━━━━➣
+┣⪼𖨠 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
+┣⪼𖨠ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+┣⪼𖨠ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+╰━━━━━━━━━━━━━━━━━➣
+︻︻︻︻︻︻︻︻︻
+【ᴛʜɪʀᴅ ᴅʙ (ᴏᴛʜᴇʀ)】
+︼︼︼︼︼︼︼︼︼
+╭━━━━━━━━━━━━━━━━━➣
+┣⪼𖨠 Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+┣⪼𖨠Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+╰━━━━━━━━━━━━━━━━━➣</blockquote></b>"""
     
     LOG_TEXT_G = """#NewGroup
-Gʀᴏᴜᴘ = {}(<code>{}</code>)
-Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
-Aᴅᴅᴇᴅ Bʏ - {}"""
+➥ Gʀᴏᴜᴘ = {}(<code>{}</code>)
+➢ Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
+⋟  Aᴅᴅᴇᴅ Bʏ - {}
+⬔❖✠➨ @professormp_bot"""
 
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
-Nᴀᴍᴇ - {}"""
+Nᴀᴍᴇ - {}
+
+⬔❖✠➨ @professormp_bot"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
-ʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ..."""
+ʀᴇQᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ... 
+©ɪɴғɪɴɪᴛʏ ʙᴏᴛᴢ"""
 
     OLD_ALRT_TXT = """ʜᴇʏ {},
 ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
@@ -215,7 +233,7 @@ Nᴀᴍᴇ - {}"""
 
     SHORTLINK_INFO = """
 
-🫵 Select Your Language And Earn Money 💰"""
+🫵 sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴇsɪʀᴇᴅ ʟᴀɴɢᴜᴀɢᴇ & sᴛᴀʀᴛ ᴇᴀʀɴɪɴɢ ᴍᴏɴᴇʏ ғʀᴏᴍ ɴᴏᴡ 💰"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -227,7 +245,11 @@ Nᴀᴍᴇ - {}"""
     SELECT = """sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘʀᴇғᴇʀʀᴇᴅ ʟᴀɴɢᴜᴀɢᴇ, ǫᴜᴀʟɪᴛʏ, sᴇᴀsᴏɴ ᴀɴᴅ ᴇᴘɪsᴏᴅᴇ"""
 
     SINFO = """
-🫣 For Movie Join First Then Click On Try Again Button 😅"""
+⚠️ ᴅᴜᴇ ᴛᴏ ᴏᴠᴇʀʟᴏᴀᴅ ᴏɴʟʏ ᴄʜᴀɴɴᴇʟ ꜱᴜʙꜱᴄʀɪʙᴇʀꜱ ᴄᴀɴ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ 🪄
+♻️ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ & ᴛᴀᴩ ᴏɴ *ᴛʀʏ ᴀɢᴀɪɴ*"""
+
+    NORENAMEINFO = """Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs ! 
+    ©ɪɴғɪɴɪᴛʏ ʙᴏᴛᴢ"""
 
     NORSLTS = """ 
 ★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
@@ -238,11 +260,11 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : [{file_name}](https://t.me/infinity_botzz)
 
-<b> Size ⚙️: {file_size}</b>""" 
+<b> Size ⚙️: {file_size}</b>"""
 
-    IMDB_TEMPLATE_TXT = """
+     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
 IMDb Data:
@@ -260,7 +282,7 @@ IMDb Data:
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 
 Requested by : {message.from_user.mention}</b>"""
-    
+        
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
     
@@ -315,7 +337,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
   
     TELE_TXT = """<b>ʜᴇʟᴘ: ᴛᴇʟᴇɢʀᴀᴘʜ ᴅᴏ ᴀꜱ ʏᴏᴜ ᴡɪꜱʜ ᴡɪᴛʜ ᴛᴇʟᴇɢʀᴀ.ᴘʜ ᴍᴏᴅᴜʟᴇ! 
   
- ᴜꜱᴀɢᴇ: /telegraph - ꜱᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇ ᴜɴᴅᴇʀ (5ᴍʙ) 
+ ᴜꜱᴀɢᴇ: /upload - ꜱᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇ ᴜɴᴅᴇʀ (5ᴍʙ) 
   
  ɴᴏᴛᴇ: 
  ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ɢᴏᴜᴘꜱ ᴀɴᴅ ᴘᴍꜱ 
@@ -335,7 +357,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  </b>""" 
 
     PROGRESS_BAR = """\n
-╭━━━━❰ Tech VJ Renaming... ❱━➣
+╭━━━━❰ ʀᴇɴᴀᴍɪɴɢ ɪɴ ᴘʀᴏɢʀᴇss... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
@@ -457,12 +479,14 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  
     RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+<b>#ʀᴇsᴛᴀʀᴛ
+{} Rᴇsᴛᴀʀᴛᴇᴅ !
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
+
 
     LOGO = """
 ████████╗███████╗███████╗██╗  ██╗    ╔██        ██╗       ██╗
@@ -471,6 +495,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
    ██║    ██╔══╝  ██║      ██╔══██║       ║██  ██║  ╔██     ██║
    ██║    ███████╗███████╗██║  ██║        ║████║   ║████████║
    ╚═╝    ╚══════╝╚══════╝╚═╝  ╚═╝        ╚════╝   ╚════════╝"""
+ 
  
     TAMIL_INFO = """
 ஏய் <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
