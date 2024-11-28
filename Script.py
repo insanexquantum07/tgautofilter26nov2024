@@ -776,3 +776,7 @@ Example:- /set_caption 📕 File Name: {filename}
     STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
 
 /stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
+
+    INSTA_TXT = """📯 ᴊᴜsᴛ ᴄᴏᴘʏ ᴀɴʏ ᴠɪᴅᴇᴏ ʟɪɴᴋ ғʀᴏᴍ ғᴀᴄᴇʙᴏᴏᴋ ᴏʀ ɪɴsᴛᴀɢʀᴀᴍ ᴀɴᴅ sᴇɴᴅ ᴛᴏ ᴏᴜʀ ʙᴏᴛ.❇️
+    
+    ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ & sʜᴀʀᴇ ᴡɪᴛʜ ʏᴏᴜʀ ғᴀᴍɪʟʏ ᴀɴᴅ ғʀɪᴇɴᴅs."""
