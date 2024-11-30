@@ -18,7 +18,7 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', 'https://envs.sh/Y5c.jpg https://envs.sh/Y5j.jpg https://envs.sh/Y5_.jpg')).split() #SAMPLE PIC
 
 NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/Y5Z.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", https://envs.sh/Y55.mp4"")
+MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/Y55.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 
