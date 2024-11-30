@@ -18,7 +18,7 @@ class script(object):
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
 ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://koyeb.com'>ᴋᴏʏᴇʙ</a> 
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ-2.7.5 [sᴛᴀʙʟᴇ]></b>"""
+‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ-2.7.5 [sᴛᴀʙʟᴇ]</b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
@@ -38,7 +38,7 @@ class script(object):
 👨‍💻 Cᴏᴍᴍᴀɴᴅ : /clone</b>"""
 
     SUBSCRIPTION_TXT = """
-<b>ʀᴇғᴇʀʀᴇ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
+<b>ʀᴇғᴇʀ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
 
 ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=Infinity-{}
 
@@ -515,7 +515,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  படி 2: உங்கள் இணையதளம் மற்றும் API ஐச் சேர்க்கவும்
 
- Exp: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
+ Exp: <code>/shortlink runurl.in 23713ba321c3ed8a7d3580276b0248a5a41f30bd</code>
 
  வீடியோவைச் சேர்க்கவும்
 
@@ -542,7 +542,7 @@ Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a>
 
  Step 2: Add your website and API
 
- Exp: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
+ Exp: <code>/shortlink runurl.in 23713ba321c3ed8a7d3580276b0248a5a41f30bd</code>
 
  Add a video
 
@@ -569,7 +569,7 @@ Also your tutorial will be Added Your Group..."""
 
  దశ 2: మీ వెబ్‌సైట్ మరియు APIని జోడించండి
 
- గడువు: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
+ గడువు: <code>/shortlink runurl.in 23713ba321c3ed8a7d3580276b0248a5a41f30bd</code>
 
  వీడియోను జోడించండి
 
@@ -596,7 +596,7 @@ Also your tutorial will be Added Your Group..."""
 
  चरण 2: अपनी वेबसाइट और एपीआई जोड़ें
 
- एक्सप: /शॉर्टलिंक omegalinks.in 4b392f8eb6ad711fbe58
+ एक्सप: <code>/shortlink runurl.in 23713ba321c3ed8a7d3580276b0248a5a41f30bd</code>
 
  एक वीडियो जोड़ें
 
@@ -623,7 +623,7 @@ Also your tutorial will be Added Your Group..."""
 
  ഘട്ടം 2: നിങ്ങളുടെ വെബ്‌സൈറ്റും API-യും ചേർക്കുക
 
- കാലഹരണപ്പെടൽ: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
+ കാലഹരണപ്പെടൽ: <code>/shortlink runurl.in 23713ba321c3ed8a7d3580276b0248a5a41f30bd</code>
 
  ഒരു വീഡിയോ ചേർക്കുക
 
@@ -650,7 +650,7 @@ Also your tutorial will be Added Your Group..."""
 
  مرحلہ 2: اپنی ویب سائٹ اور API شامل کریں۔
 
- Exp: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
+ Exp: <code>/shortlink runurl.in 23713ba321c3ed8a7d3580276b0248a5a41f30bd</code>
 
  ایک ویڈیو شامل کریں۔
 
@@ -677,7 +677,7 @@ Also your tutorial will be Added Your Group..."""
 
  પગલું 2: તમારી વેબસાઇટ અને API ઉમેરો
 
- સમાપ્તિ: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
+ સમાપ્તિ: <code>/shortlink runurl.in 23713ba321c3ed8a7d3580276b0248a5a41f30bd</code>
 
  વિડિઓ ઉમેરો
 
@@ -703,7 +703,7 @@ Also your tutorial will be Added Your Group..."""
 
  ಹಂತ 2: ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಮತ್ತು API ಸೇರಿಸಿ
 
- ಅವಧಿ: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
+ ಅವಧಿ: <code>/shortlink runurl.in 23713ba321c3ed8a7d3580276b0248a5a41f30bd</code>
 
  ವೀಡಿಯೊ ಸೇರಿಸಿ
 
@@ -729,7 +729,7 @@ Also your tutorial will be Added Your Group..."""
 
  ধাপ 2: আপনার ওয়েবসাইট এবং API যোগ করুন
 
- মেয়াদ: /shortlink omegalinks.in 4b392f8eb6ad711fbe58
+ মেয়াদ: <code>/shortlink runurl.in 23713ba321c3ed8a7d3580276b0248a5a41f30bd</code>
 
  একটি ভিডিও যোগ করুন
 
@@ -741,15 +741,13 @@ Also your tutorial will be Added Your Group..."""
 
 
     DEVELOPER_TXT = """
-special Thanks To ❤️ Developers -
+ᴛʜᴀɴᴋs ᴛᴏ ᴀʟʟ ᴅᴇᴠᴇʟᴏᴘᴇʀs & ᴄᴏᴅᴇʀs ᴡʜᴏ ᴄᴏɴᴛʀɪʙᴜᴛᴇᴅ ᴛʜɪs ʀᴇᴘᴏ ᴛᴏ ᴍᴀᴋᴇ ʟɪᴋᴇ ᴛʜɪs.
 
--Dev 1 [Owner of this bot ]<a href='https://https;//telegram.me/talk_mrs_bot'>VJ</a>
+• ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href='https://t.me/talk_mrs_bot'>ᴍʀ. ɪɴғɪɴɪᴛʏ</a>
+• ᴘᴏᴡᴇʀᴇᴅ ʙʏ <a href='https://t.me/infinity_botzz'>ɪɴғɪɴɪᴛʏ ʙᴏᴛᴢ</a>
+• sᴘᴏɴsᴏʀᴇᴅ ʙʏ <a href='https://t.me/hd_movies_hub01>ʜᴅ ᴍᴏᴠɪᴇs ʜᴜʙ</a>
 
--Dev 2 <a href='https://t.me/vjbots_bot'>VJ</a>
-
--Dev 3 <a href='https://t.me/vj_botz>VJ Botz</a>
-
-- Dev 4 <a href='https://t.me/vj_bots'>TEAM VJ</a>
+       ~ ᴛᴇᴀᴍ ©ɪɴғɪɴɪᴛʏ ʙᴏᴛᴢ
 """
 
     RENAME_TXT = """

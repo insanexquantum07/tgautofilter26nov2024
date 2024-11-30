@@ -58,7 +58,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                         InlineKeyboardButton('• ʜᴇʟᴩ •', callback_data='help'),
                         InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                     ],[
-                        InlineKeyboardButton('🔻 ɢᴇᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻', callback_data='subscription')
+                        InlineKeyboardButton('🔻 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻', callback_data='subscription')
                     ]]
                 else:
                     buttons = [[
@@ -70,7 +70,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                         InlineKeyboardButton('• ʜᴇʟᴩ •', callback_data='help'),
                         InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                     ],[
-                        InlineKeyboardButton('🔻 ɢᴇᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻', callback_data='subscription')
+                        InlineKeyboardButton('🔻 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻', callback_data='subscription')
                     ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
                 m=await client.send_sticker(chat_id = message.from_user.id, sticker = "CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
@@ -185,7 +185,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                     ],[
                         InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="https;//telegram.me/talk_mrs_bot")
                     ],[
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
+                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @talk_mrs_bot
                     ]]
                 else:
                     button = [[
@@ -254,7 +254,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                     ],[
                         InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="https;//telegram.me/talk_mrs_bot")
                     ],[
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
+                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @talk_mrs_bot
                     ]]
                 else:
                     button = [[
@@ -327,7 +327,7 @@ async def auto_approve(client, message: ChatJoinRequest):
             ],[
                 InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="https;//telegram.me/talk_mrs_bot")
             ],[
-                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
+                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @talk_mrs_bot
             ]]
         else:
             button = [[
@@ -359,5 +359,5 @@ async def auto_approve(client, message: ChatJoinRequest):
         chat = message.chat 
         user = message.from_user  
         await client.approve_chat_join_request(chat_id=chat.id, user_id=user.id)
-        text = f"<b>ʜᴇʟʟᴏ {message.from_user.mention} 👋,\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {message.chat.title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @VJ_Botz</b>"
+        text = f"<b>ʜᴇʟʟᴏ {message.from_user.mention} 👋,\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {message.chat.title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @infinity_botzz</b>"
         await client.send_message(chat_id=user.id, text=text)
