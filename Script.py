@@ -264,7 +264,8 @@ Nᴀᴍᴇ - {}
 
 <b> Size ⚙️: {file_size}</b>"""
 
-     IMDB_TEMPLATE_TXT = """
+
+    IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
 IMDb Data:
