@@ -49,7 +49,7 @@ DUMP_GROUP = int(environ.get('DUMP_GROUP', '-1001984194316'))
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
 
 DATABASE_URI = environ.get('DATABASE_URI', "")   # IF Multiple Database Is False Then Fill Only This Database Url.
-DATABASE_NAME = environ.get('DATABASE_NAME', "Infinity_botzz")
+DATABASE_NAME = environ.get('DATABASE_NAME', "promovies")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ProFilter')
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
