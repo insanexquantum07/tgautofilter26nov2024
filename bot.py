@@ -60,7 +60,7 @@ async def start():
     today = date.today()
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
-    await TechVJBot.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
+    await TechVJBot.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(me.mention, today, time))
     await TechVJBot.send_message(chat_id=SUPPORT_CHAT_ID, text=f"<b>{me.mention} ʀᴇsᴛᴀʀᴛᴇᴅ 🤖</b>")
     for admin in ADMINS:
         await TechVJBot.send_message(chat_id=admin, text=f"<b>๏[-ิ_•ิ]๏ {me.mention} ʀᴇsᴛᴀʀᴛᴇᴅ ✅</b>")
