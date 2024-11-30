@@ -53,7 +53,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "promovies")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ProFilter')
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
-O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://protgm:nPro29112024mvisreplacetgaf@promovies.b6fia.mongodb.net/?retryWrites=true&w=majority&appName=promovies")   # This Db Is For Other Data Store
+O_DB_URI = environ.get('O_DB_URI', "mongodb+srv://prousersdbmvs:promovies00usersdb@promovies.rhnr1.mongodb.net/?retryWrites=true&w=majority&appName=promovies")   # This Db Is For Other Data Store
 F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://profiles1id:pass1profilter@profiles1.df7m7.mongodb.net/?retryWrites=true&w=majority&appName=profiles1")   # This Db Is For File Data Store
 S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://profiles02tgafrep:profilesdb02pass@profiles2.d64l7.mongodb.net/?retryWrites=true&w=majority&appName=profiles2")   # This Db is for File Data Store When First Db Is Going To Be Full.
 
