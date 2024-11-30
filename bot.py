@@ -54,12 +54,17 @@ async def start():
     temp.ME = me.id
     temp.U_NAME = me.username
     temp.B_NAME = me.first_name
+    temp.B_LINK = me.mention
     logging.info(script.LOGO)
     tz = pytz.timezone('Asia/Kolkata')
     today = date.today()
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
     await TechVJBot.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
+    await TechVJBot.send_message(chat_id=SUPPORT_CHAT_ID, text=f"<b>{me.mention} ʀᴇsᴛᴀʀᴛᴇᴅ 🤖</b>")
+    for admin in ADMINS:
+        await TechVJBot.send_message(chat_id=admin, text=f"<b>๏[-ิ_•ิ]๏ {me.mention} ʀᴇsᴛᴀʀᴛᴇᴅ ✅</b>")
+
     if CLONE_MODE == True:
         print("Restarting All Clone Bots.......")
         await restart_bots()
