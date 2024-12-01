@@ -48,7 +48,7 @@ DUMP_GROUP = int(environ.get('DUMP_GROUP', '-1001984194316'))
 # MongoDB information
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://protgm:nPro29112024mvisreplacetgaf@promovies.b6fia.mongodb.net/?retryWrites=true&w=majority&appName=promovies")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://prousersdbmvs:promovies00usersdb@promovies.rhnr1.mongodb.net/?retryWrites=true&w=majority&appName=promovies")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "promovies")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ProFilter')
 
